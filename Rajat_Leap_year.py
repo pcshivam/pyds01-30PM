@@ -5,3 +5,10 @@ if input_year %4 == 0:
 
 else:
   print (input_year," is not a leap year")
+
+def check_even(i):
+  if i%2 == 0:
+    print("Even")
+
+  else:
+    print("odd")
