@@ -1,0 +1,15 @@
+#Code for Countdown Timer:-
+
+import time
+
+
+def countdown_timer(seconds):
+    while seconds >= 0:       
+        print("Remaining Time:", seconds, "seconds", end='\r')
+        time.sleep(1)       
+        seconds -= 1
+   
+    print("\nTimes over..STOP!")
+
+seconds = int(input("Enter the duration of the time in seconds: "))
+countdown_timer(seconds)
